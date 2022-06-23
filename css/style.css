@@ -1,0 +1,67 @@
+body,html{
+  font-family: 'Noto Sans TC', sans-serif;
+  padding: 0;
+}
+
+.bg-lightgray{
+  background-color: lightgray;
+}
+.bg-gray{
+  background-color: var(--bs-gray);
+}
+.bg-green{
+  background-color:rgb(11, 53, 11);
+}
+.white{
+  color:white;
+}
+.border-gray{
+  border:gray;
+}
+
+.card-text-four{
+  font-size: calc(1rem * 1vm);
+  font-weight: 300;
+}
+
+.change-text-1{
+  font-size: 1rem ;
+}
+
+.w-h-150px{
+  width: 150px;
+  height: 150px;
+}
+
+.ps-80px{
+  padding-left:80px;
+}
+
+
+@media (min-width: 960px) {
+  .navbar{
+    opacity: 0.8;
+  }
+  .row{
+    padding:5rem;
+  }
+  h2{
+    font-size:2rem;
+  }
+  .card-text-four{
+    font-size: 1.2rem ;
+    
+  }
+  .change-text-2-5{
+    font-size: 2.5rem ;
+  }
+  .change-text-2{
+    font-size: 2rem ;
+  }
+  .change-text-1{
+    font-size: 0.9rem ;
+  }
+  .w-lg-50{
+    width: 50%;
+  }
+}
